@@ -1,6 +1,7 @@
 # Automation Testing Framework (Dockerized)
 
 This project provides a Dockerized API testing framework with Excel-driven test cases, Allure reporting, and Flask-based execution.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🚀 Quick Start
 
