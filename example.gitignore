@@ -1,0 +1,141 @@
+# project specific
+/allure_reports
+.venv/
+**/allure_data/
+.idea/
+automation.log
+allure-report/
+allure_reports/
+**/automation.log*
+.env
+**/*.log
+**/*rough*
+.DS_Store
+**/.DS_Store
+**/test_summary.txt/
+.qodo/
+.qodo
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.python-version
+
+# pytest
+.pytest_cache/
+test-results/
+reports/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+*.py,cover
+.hypothesis/
+
+# Allure
+allure-report/
+allure-results/
+.allure/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+docker-compose.yml.bak
+docker-compose.override.yml
+.env.docker
+*.dockerfile
+docker-compose.*.yml
+
+# Local development
+local_settings.py
+local_config.yaml
+*.local
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual machine
+.vagrant/
+
+# MacOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+*~
+*.swp
+*.swo
+
+# Visual Studio Code
+.history/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Custom project files
+/test_data/
+/output/
+/artifacts/
+/screenshots/
+*.db
+*.db-journal
+*.sqlite3

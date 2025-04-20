@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      shm_size: '2gb'
+    env_file:
+      - .env
+    volumes:
+      - ./automation_app:/automation_app
+    command: sh -c "python flask_app.py"
+    ports:
+      - "5000:5001"
